@@ -1,0 +1,9 @@
+Study, design, and implementation of a patient monitoring system using hardware for vital signs
+recording (ECG, Oximeter) and computer vision for applications in Smart Cities
+
+Abstract
+
+This thesis focuses on the study, design, and implementation of a patient monitoring system that utilizes hardware for recording vital signs (ECG, oximeter) and computer vision, with applications in smart cities. The system aims to enable remote monitoring of elderly individuals and patients with chronic illnesses who live in urban, as well in rural and remote areas and lack easy access to healthcare services.
+The system consists of separate sensors for measuring heart rate, blood oxygen levels, and electrocardiograms, as well as a camera that detects body posture (standing, sitting, lying down). The data from the heart rate, oxygen level, and ECG sensors are transmitted via the internet to a mobile application, allowing remote monitoring of patients. The implementation is based on the Arduino Nano 33 BLE Sense and ESP-8266 Wemos D1 Mini boards, which provide capabilities for artificial intelligence integration and wireless communication.
+Sensor communication with the application is based on the MQTT protocol, ensuring secure and efficient data transmission. Additionally, machine learning techniques and neural networks are employed for analyzing camera data, enabling accurate body posture detection.
+The system contributes to the prevention of critical conditions, improving patients' quality of life and facilitating remote medical monitoring. The findings of this study indicate that this approach can serve as a valuable tool in supporting healthcare systems within smart cities, reducing response times in emergencies and enhancing patient autonomy.
